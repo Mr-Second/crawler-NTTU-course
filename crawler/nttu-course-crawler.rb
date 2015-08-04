@@ -146,6 +146,5 @@ class NationalTaiTungUniversityCrawler
   end
  end
 end
-
-crawler = NationalTaiTungUniversityCrawler.new(year: 2015, term: 1)
-File.write('courses.json', JSON.pretty_generate(crawler.courses()))
+# crawler = NationalTaiTungUniversityCrawler.new(year: 2015, term: 1)
+# File.write('courses.json', JSON.pretty_generate(crawler.courses()))
